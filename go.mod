@@ -1,4 +1,4 @@
-module github.com/boot2podman/machine
+module github.com/thelonelyghost/p2box
 
 go 1.15
 

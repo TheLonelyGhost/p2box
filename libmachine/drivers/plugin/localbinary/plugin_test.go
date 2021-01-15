@@ -9,7 +9,7 @@ import (
 
 	"os"
 
-	"github.com/boot2podman/machine/libmachine/log"
+	"github.com/thelonelyghost/p2box/libmachine/log"
 	"github.com/stretchr/testify/assert"
 )
 

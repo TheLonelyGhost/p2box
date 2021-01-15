@@ -9,10 +9,10 @@ import (
 	"regexp"
 	"testing"
 
-	"github.com/boot2podman/machine/commands/mcndirs"
-	"github.com/boot2podman/machine/drivers/none"
-	"github.com/boot2podman/machine/libmachine/host"
-	"github.com/boot2podman/machine/libmachine/hosttest"
+	"github.com/thelonelyghost/p2box/commands/mcndirs"
+	"github.com/thelonelyghost/p2box/drivers/none"
+	"github.com/thelonelyghost/p2box/libmachine/host"
+	"github.com/thelonelyghost/p2box/libmachine/hosttest"
 )
 
 func cleanup() {

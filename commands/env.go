@@ -8,9 +8,9 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/boot2podman/machine/libmachine"
-	"github.com/boot2podman/machine/libmachine/log"
-	"github.com/boot2podman/machine/libmachine/shell"
+	"github.com/thelonelyghost/p2box/libmachine"
+	"github.com/thelonelyghost/p2box/libmachine/log"
+	"github.com/thelonelyghost/p2box/libmachine/shell"
 )
 
 const (

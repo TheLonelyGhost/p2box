@@ -3,7 +3,7 @@ package commands
 import (
 	"fmt"
 
-	"github.com/boot2podman/machine/libmachine"
+	"github.com/thelonelyghost/p2box/libmachine"
 )
 
 func cmdURL(c CommandLine, api libmachine.API) error {

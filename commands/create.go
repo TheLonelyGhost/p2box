@@ -11,16 +11,16 @@ import (
 
 	"errors"
 
-	"github.com/boot2podman/machine/commands/mcndirs"
-	"github.com/boot2podman/machine/libmachine"
-	"github.com/boot2podman/machine/libmachine/auth"
-	"github.com/boot2podman/machine/libmachine/drivers"
-	"github.com/boot2podman/machine/libmachine/drivers/rpc"
-	"github.com/boot2podman/machine/libmachine/engine"
-	"github.com/boot2podman/machine/libmachine/host"
-	"github.com/boot2podman/machine/libmachine/log"
-	"github.com/boot2podman/machine/libmachine/mcnerror"
-	"github.com/boot2podman/machine/libmachine/mcnflag"
+	"github.com/thelonelyghost/p2box/commands/mcndirs"
+	"github.com/thelonelyghost/p2box/libmachine"
+	"github.com/thelonelyghost/p2box/libmachine/auth"
+	"github.com/thelonelyghost/p2box/libmachine/drivers"
+	"github.com/thelonelyghost/p2box/libmachine/drivers/rpc"
+	"github.com/thelonelyghost/p2box/libmachine/engine"
+	"github.com/thelonelyghost/p2box/libmachine/host"
+	"github.com/thelonelyghost/p2box/libmachine/log"
+	"github.com/thelonelyghost/p2box/libmachine/mcnerror"
+	"github.com/thelonelyghost/p2box/libmachine/mcnflag"
 	"github.com/urfave/cli"
 )
 

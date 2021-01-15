@@ -8,11 +8,11 @@ import (
 	"os"
 	"time"
 
-	"github.com/boot2podman/machine/libmachine/drivers"
-	"github.com/boot2podman/machine/libmachine/drivers/plugin/localbinary"
-	"github.com/boot2podman/machine/libmachine/drivers/rpc"
-	"github.com/boot2podman/machine/libmachine/log"
-	"github.com/boot2podman/machine/libmachine/version"
+	"github.com/thelonelyghost/p2box/libmachine/drivers"
+	"github.com/thelonelyghost/p2box/libmachine/drivers/plugin/localbinary"
+	"github.com/thelonelyghost/p2box/libmachine/drivers/rpc"
+	"github.com/thelonelyghost/p2box/libmachine/log"
+	"github.com/thelonelyghost/p2box/libmachine/version"
 )
 
 var (

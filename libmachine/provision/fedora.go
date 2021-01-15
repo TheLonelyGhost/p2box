@@ -1,7 +1,7 @@
 package provision
 
 import (
-	"github.com/boot2podman/machine/libmachine/drivers"
+	"github.com/thelonelyghost/p2box/libmachine/drivers"
 )
 
 func init() {

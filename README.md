@@ -18,7 +18,7 @@ configures the Podman client to talk to them.
 
 ## Download
 
-Binaries can be found in: https://github.com/boot2podman/machine/releases
+Binaries can be found in: https://github.com/thelonelyghost/p2box/releases
 
 Get the version for your operating system and architecture, and put it in your path, adding executable permissions if needed.
 

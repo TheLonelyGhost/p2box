@@ -8,7 +8,7 @@ import (
 	"os/exec"
 	"path/filepath"
 
-	"github.com/boot2podman/machine/libmachine/log"
+	"github.com/thelonelyghost/p2box/libmachine/log"
 	"golang.org/x/sys/windows/registry"
 )
 

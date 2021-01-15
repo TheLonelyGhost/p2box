@@ -4,7 +4,7 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/boot2podman/machine/drivers/fakedriver"
+	"github.com/thelonelyghost/p2box/drivers/fakedriver"
 	"github.com/stretchr/testify/assert"
 )
 

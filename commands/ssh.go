@@ -3,8 +3,8 @@ package commands
 import (
 	"fmt"
 
-	"github.com/boot2podman/machine/libmachine"
-	"github.com/boot2podman/machine/libmachine/state"
+	"github.com/thelonelyghost/p2box/libmachine"
+	"github.com/thelonelyghost/p2box/libmachine/state"
 )
 
 type errStateInvalidForSSH struct {

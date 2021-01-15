@@ -8,12 +8,12 @@ import (
 
 	"io"
 
-	"github.com/boot2podman/machine/libmachine/drivers"
-	"github.com/boot2podman/machine/libmachine/drivers/plugin/localbinary"
-	"github.com/boot2podman/machine/libmachine/log"
-	"github.com/boot2podman/machine/libmachine/mcnflag"
-	"github.com/boot2podman/machine/libmachine/state"
-	"github.com/boot2podman/machine/libmachine/version"
+	"github.com/thelonelyghost/p2box/libmachine/drivers"
+	"github.com/thelonelyghost/p2box/libmachine/drivers/plugin/localbinary"
+	"github.com/thelonelyghost/p2box/libmachine/log"
+	"github.com/thelonelyghost/p2box/libmachine/mcnflag"
+	"github.com/thelonelyghost/p2box/libmachine/state"
+	"github.com/thelonelyghost/p2box/libmachine/version"
 )
 
 var (

@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"text/template"
 
-	"github.com/boot2podman/machine/libmachine/auth"
-	"github.com/boot2podman/machine/libmachine/drivers"
-	"github.com/boot2podman/machine/libmachine/engine"
+	"github.com/thelonelyghost/p2box/libmachine/auth"
+	"github.com/thelonelyghost/p2box/libmachine/drivers"
+	"github.com/thelonelyghost/p2box/libmachine/engine"
 )
 
 type GenericProvisioner struct {

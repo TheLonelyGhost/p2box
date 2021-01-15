@@ -4,7 +4,7 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/boot2podman/machine/libmachine/mcnflag"
+	"github.com/thelonelyghost/p2box/libmachine/mcnflag"
 	"github.com/stretchr/testify/assert"
 )
 

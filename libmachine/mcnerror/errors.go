@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/boot2podman/machine/libmachine/state"
+	"github.com/thelonelyghost/p2box/libmachine/state"
 )
 
 var (

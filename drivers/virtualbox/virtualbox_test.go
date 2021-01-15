@@ -10,8 +10,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/boot2podman/machine/libmachine/drivers"
-	"github.com/boot2podman/machine/libmachine/state"
+	"github.com/thelonelyghost/p2box/libmachine/drivers"
+	"github.com/thelonelyghost/p2box/libmachine/state"
 	"github.com/stretchr/testify/assert"
 )
 

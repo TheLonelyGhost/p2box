@@ -4,17 +4,17 @@ import (
 	"os/exec"
 	"regexp"
 
-	"github.com/boot2podman/machine/libmachine/auth"
-	"github.com/boot2podman/machine/libmachine/cert"
-	"github.com/boot2podman/machine/libmachine/drivers"
-	"github.com/boot2podman/machine/libmachine/engine"
-	"github.com/boot2podman/machine/libmachine/log"
-	"github.com/boot2podman/machine/libmachine/mcnerror"
-	"github.com/boot2podman/machine/libmachine/mcnutils"
-	"github.com/boot2podman/machine/libmachine/provision"
-	"github.com/boot2podman/machine/libmachine/provision/pkgaction"
-	"github.com/boot2podman/machine/libmachine/ssh"
-	"github.com/boot2podman/machine/libmachine/state"
+	"github.com/thelonelyghost/p2box/libmachine/auth"
+	"github.com/thelonelyghost/p2box/libmachine/cert"
+	"github.com/thelonelyghost/p2box/libmachine/drivers"
+	"github.com/thelonelyghost/p2box/libmachine/engine"
+	"github.com/thelonelyghost/p2box/libmachine/log"
+	"github.com/thelonelyghost/p2box/libmachine/mcnerror"
+	"github.com/thelonelyghost/p2box/libmachine/mcnutils"
+	"github.com/thelonelyghost/p2box/libmachine/provision"
+	"github.com/thelonelyghost/p2box/libmachine/provision/pkgaction"
+	"github.com/thelonelyghost/p2box/libmachine/ssh"
+	"github.com/thelonelyghost/p2box/libmachine/state"
 )
 
 var (

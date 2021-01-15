@@ -5,7 +5,7 @@ import (
 	"io"
 	"os"
 
-	"github.com/boot2podman/machine/libmachine"
+	"github.com/thelonelyghost/p2box/libmachine"
 )
 
 func cmdVersion(c CommandLine, api libmachine.API) error {

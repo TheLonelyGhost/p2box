@@ -1,8 +1,8 @@
 package commands
 
 import (
-	"github.com/boot2podman/machine/libmachine"
-	"github.com/boot2podman/machine/libmachine/log"
+	"github.com/thelonelyghost/p2box/libmachine"
+	"github.com/thelonelyghost/p2box/libmachine/log"
 )
 
 func cmdRestart(c CommandLine, api libmachine.API) error {

@@ -1,11 +1,11 @@
 package libmachinetest
 
 import (
-	"github.com/boot2podman/machine/libmachine"
-	"github.com/boot2podman/machine/libmachine/drivers"
-	"github.com/boot2podman/machine/libmachine/host"
-	"github.com/boot2podman/machine/libmachine/mcnerror"
-	"github.com/boot2podman/machine/libmachine/state"
+	"github.com/thelonelyghost/p2box/libmachine"
+	"github.com/thelonelyghost/p2box/libmachine/drivers"
+	"github.com/thelonelyghost/p2box/libmachine/host"
+	"github.com/thelonelyghost/p2box/libmachine/mcnerror"
+	"github.com/thelonelyghost/p2box/libmachine/state"
 )
 
 type FakeAPI struct {

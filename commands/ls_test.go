@@ -7,10 +7,10 @@ import (
 
 	"errors"
 
-	"github.com/boot2podman/machine/drivers/fakedriver"
-	"github.com/boot2podman/machine/libmachine/engine"
-	"github.com/boot2podman/machine/libmachine/host"
-	"github.com/boot2podman/machine/libmachine/state"
+	"github.com/thelonelyghost/p2box/drivers/fakedriver"
+	"github.com/thelonelyghost/p2box/libmachine/engine"
+	"github.com/thelonelyghost/p2box/libmachine/host"
+	"github.com/thelonelyghost/p2box/libmachine/state"
 	"github.com/stretchr/testify/assert"
 )
 

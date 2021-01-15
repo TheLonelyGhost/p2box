@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/boot2podman/machine/libmachine/auth"
-	"github.com/boot2podman/machine/libmachine/log"
-	"github.com/boot2podman/machine/libmachine/mcnutils"
+	"github.com/thelonelyghost/p2box/libmachine/auth"
+	"github.com/thelonelyghost/p2box/libmachine/log"
+	"github.com/thelonelyghost/p2box/libmachine/mcnutils"
 )
 
 func createCACert(authOptions *auth.Options, caOrg string, bits int) error {

@@ -6,9 +6,9 @@ import (
 
 	"time"
 
-	"github.com/boot2podman/machine/libmachine"
-	"github.com/boot2podman/machine/libmachine/persist"
-	"github.com/boot2podman/machine/libmachine/state"
+	"github.com/thelonelyghost/p2box/libmachine"
+	"github.com/thelonelyghost/p2box/libmachine/persist"
+	"github.com/thelonelyghost/p2box/libmachine/state"
 )
 
 const (

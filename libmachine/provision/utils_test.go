@@ -5,12 +5,12 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/boot2podman/machine/drivers/fakedriver"
-	"github.com/boot2podman/machine/libmachine/auth"
-	"github.com/boot2podman/machine/libmachine/engine"
-	"github.com/boot2podman/machine/libmachine/provision/pkgaction"
-	"github.com/boot2podman/machine/libmachine/provision/provisiontest"
-	"github.com/boot2podman/machine/libmachine/provision/serviceaction"
+	"github.com/thelonelyghost/p2box/drivers/fakedriver"
+	"github.com/thelonelyghost/p2box/libmachine/auth"
+	"github.com/thelonelyghost/p2box/libmachine/engine"
+	"github.com/thelonelyghost/p2box/libmachine/provision/pkgaction"
+	"github.com/thelonelyghost/p2box/libmachine/provision/provisiontest"
+	"github.com/thelonelyghost/p2box/libmachine/provision/serviceaction"
 	"github.com/stretchr/testify/assert"
 )
 

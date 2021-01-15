@@ -3,9 +3,9 @@ package fakedriver
 import (
 	"fmt"
 
-	"github.com/boot2podman/machine/libmachine/drivers"
-	"github.com/boot2podman/machine/libmachine/mcnflag"
-	"github.com/boot2podman/machine/libmachine/state"
+	"github.com/thelonelyghost/p2box/libmachine/drivers"
+	"github.com/thelonelyghost/p2box/libmachine/mcnflag"
+	"github.com/thelonelyghost/p2box/libmachine/state"
 )
 
 type Driver struct {

@@ -4,7 +4,7 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/boot2podman/machine/libmachine/log"
+	"github.com/thelonelyghost/p2box/libmachine/log"
 )
 
 // IsVTXDisabled checks if VT-X is disabled in the BIOS. If it is, the vm will fail to start.

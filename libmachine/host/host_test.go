@@ -3,10 +3,10 @@ package host
 import (
 	"testing"
 
-	"github.com/boot2podman/machine/drivers/fakedriver"
-	_ "github.com/boot2podman/machine/drivers/none"
-	"github.com/boot2podman/machine/libmachine/provision"
-	"github.com/boot2podman/machine/libmachine/state"
+	"github.com/thelonelyghost/p2box/drivers/fakedriver"
+	_ "github.com/thelonelyghost/p2box/drivers/none"
+	"github.com/thelonelyghost/p2box/libmachine/provision"
+	"github.com/thelonelyghost/p2box/libmachine/state"
 )
 
 func TestValidateHostnameValid(t *testing.T) {

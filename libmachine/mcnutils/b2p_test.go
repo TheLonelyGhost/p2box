@@ -11,8 +11,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/boot2podman/machine/libmachine/log"
-	"github.com/boot2podman/machine/version"
+	"github.com/thelonelyghost/p2box/libmachine/log"
+	"github.com/thelonelyghost/p2box/version"
 	"github.com/stretchr/testify/assert"
 )
 

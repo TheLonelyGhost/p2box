@@ -7,7 +7,7 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/boot2podman/machine/libmachine/log"
+	"github.com/thelonelyghost/p2box/libmachine/log"
 )
 
 // The /etc/os-release file contains operating system identification data

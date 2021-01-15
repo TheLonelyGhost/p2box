@@ -1,7 +1,7 @@
 package persist
 
 import (
-	"github.com/boot2podman/machine/libmachine/host"
+	"github.com/thelonelyghost/p2box/libmachine/host"
 )
 
 type Store interface {

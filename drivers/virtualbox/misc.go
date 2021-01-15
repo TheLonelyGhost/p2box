@@ -7,8 +7,8 @@ import (
 
 	"time"
 
-	"github.com/boot2podman/machine/libmachine/mcnutils"
-	"github.com/boot2podman/machine/libmachine/ssh"
+	"github.com/thelonelyghost/p2box/libmachine/mcnutils"
+	"github.com/thelonelyghost/p2box/libmachine/ssh"
 )
 
 // B2PUpdater describes the interactions with b2p.

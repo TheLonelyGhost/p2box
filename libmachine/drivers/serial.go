@@ -5,8 +5,8 @@ import (
 
 	"encoding/json"
 
-	"github.com/boot2podman/machine/libmachine/mcnflag"
-	"github.com/boot2podman/machine/libmachine/state"
+	"github.com/thelonelyghost/p2box/libmachine/mcnflag"
+	"github.com/thelonelyghost/p2box/libmachine/state"
 )
 
 var stdLock = &sync.Mutex{}

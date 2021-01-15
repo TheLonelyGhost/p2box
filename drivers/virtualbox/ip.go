@@ -3,8 +3,8 @@ package virtualbox
 import (
 	"time"
 
-	"github.com/boot2podman/machine/libmachine/drivers"
-	"github.com/boot2podman/machine/libmachine/mcnutils"
+	"github.com/thelonelyghost/p2box/libmachine/drivers"
+	"github.com/thelonelyghost/p2box/libmachine/mcnutils"
 )
 
 // IPWaiter waits for an IP to be configured.

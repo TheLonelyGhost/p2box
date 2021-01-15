@@ -5,14 +5,14 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/boot2podman/machine/commands/commandstest"
-	"github.com/boot2podman/machine/drivers/fakedriver"
-	"github.com/boot2podman/machine/libmachine"
-	"github.com/boot2podman/machine/libmachine/drivers"
-	"github.com/boot2podman/machine/libmachine/host"
-	"github.com/boot2podman/machine/libmachine/libmachinetest"
-	"github.com/boot2podman/machine/libmachine/ssh"
-	"github.com/boot2podman/machine/libmachine/state"
+	"github.com/thelonelyghost/p2box/commands/commandstest"
+	"github.com/thelonelyghost/p2box/drivers/fakedriver"
+	"github.com/thelonelyghost/p2box/libmachine"
+	"github.com/thelonelyghost/p2box/libmachine/drivers"
+	"github.com/thelonelyghost/p2box/libmachine/host"
+	"github.com/thelonelyghost/p2box/libmachine/libmachinetest"
+	"github.com/thelonelyghost/p2box/libmachine/ssh"
+	"github.com/thelonelyghost/p2box/libmachine/state"
 	"github.com/stretchr/testify/assert"
 )
 

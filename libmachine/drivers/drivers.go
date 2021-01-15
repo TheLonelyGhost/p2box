@@ -3,9 +3,9 @@ package drivers
 import (
 	"errors"
 
-	"github.com/boot2podman/machine/libmachine/log"
-	"github.com/boot2podman/machine/libmachine/mcnflag"
-	"github.com/boot2podman/machine/libmachine/state"
+	"github.com/thelonelyghost/p2box/libmachine/log"
+	"github.com/thelonelyghost/p2box/libmachine/mcnflag"
+	"github.com/thelonelyghost/p2box/libmachine/state"
 )
 
 // Driver defines how a host is created and controlled. Different types of

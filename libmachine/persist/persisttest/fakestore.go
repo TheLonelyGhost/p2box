@@ -1,6 +1,6 @@
 package persisttest
 
-import "github.com/boot2podman/machine/libmachine/host"
+import "github.com/thelonelyghost/p2box/libmachine/host"
 
 type FakeStore struct {
 	Hosts                                           []*host.Host

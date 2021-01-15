@@ -15,8 +15,8 @@ import (
 
 	"errors"
 
-	"github.com/boot2podman/machine/libmachine/auth"
-	"github.com/boot2podman/machine/libmachine/log"
+	"github.com/thelonelyghost/p2box/libmachine/auth"
+	"github.com/thelonelyghost/p2box/libmachine/log"
 )
 
 var defaultGenerator = NewX509CertGenerator()

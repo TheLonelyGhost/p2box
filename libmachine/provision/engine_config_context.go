@@ -1,8 +1,8 @@
 package provision
 
 import (
-	"github.com/boot2podman/machine/libmachine/auth"
-	"github.com/boot2podman/machine/libmachine/engine"
+	"github.com/thelonelyghost/p2box/libmachine/auth"
+	"github.com/thelonelyghost/p2box/libmachine/engine"
 )
 
 type EngineConfigContext struct {

@@ -3,7 +3,7 @@ package commands
 import (
 	"testing"
 
-	"github.com/boot2podman/machine/libmachine/state"
+	"github.com/thelonelyghost/p2box/libmachine/state"
 	"github.com/stretchr/testify/assert"
 )
 

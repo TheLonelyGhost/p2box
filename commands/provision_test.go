@@ -3,14 +3,14 @@ package commands
 import (
 	"testing"
 
-	"github.com/boot2podman/machine/commands/commandstest"
-	"github.com/boot2podman/machine/drivers/fakedriver"
-	"github.com/boot2podman/machine/libmachine"
-	"github.com/boot2podman/machine/libmachine/auth"
-	"github.com/boot2podman/machine/libmachine/engine"
-	"github.com/boot2podman/machine/libmachine/host"
-	"github.com/boot2podman/machine/libmachine/libmachinetest"
-	"github.com/boot2podman/machine/libmachine/provision"
+	"github.com/thelonelyghost/p2box/commands/commandstest"
+	"github.com/thelonelyghost/p2box/drivers/fakedriver"
+	"github.com/thelonelyghost/p2box/libmachine"
+	"github.com/thelonelyghost/p2box/libmachine/auth"
+	"github.com/thelonelyghost/p2box/libmachine/engine"
+	"github.com/thelonelyghost/p2box/libmachine/host"
+	"github.com/thelonelyghost/p2box/libmachine/libmachinetest"
+	"github.com/thelonelyghost/p2box/libmachine/provision"
 	"github.com/stretchr/testify/assert"
 )
 

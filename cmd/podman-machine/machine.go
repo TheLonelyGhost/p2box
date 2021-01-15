@@ -7,15 +7,15 @@ import (
 
 	"path/filepath"
 
-	"github.com/boot2podman/machine/commands"
-	"github.com/boot2podman/machine/commands/mcndirs"
-	"github.com/boot2podman/machine/drivers/generic"
-	"github.com/boot2podman/machine/drivers/qemu"
-	"github.com/boot2podman/machine/drivers/virtualbox"
-	"github.com/boot2podman/machine/libmachine/drivers/plugin"
-	"github.com/boot2podman/machine/libmachine/drivers/plugin/localbinary"
-	"github.com/boot2podman/machine/libmachine/log"
-	"github.com/boot2podman/machine/version"
+	"github.com/thelonelyghost/p2box/commands"
+	"github.com/thelonelyghost/p2box/commands/mcndirs"
+	"github.com/thelonelyghost/p2box/drivers/generic"
+	"github.com/thelonelyghost/p2box/drivers/qemu"
+	"github.com/thelonelyghost/p2box/drivers/virtualbox"
+	"github.com/thelonelyghost/p2box/libmachine/drivers/plugin"
+	"github.com/thelonelyghost/p2box/libmachine/drivers/plugin/localbinary"
+	"github.com/thelonelyghost/p2box/libmachine/log"
+	"github.com/thelonelyghost/p2box/version"
 	"github.com/urfave/cli"
 )
 
@@ -85,7 +85,7 @@ func main() {
 	app := cli.NewApp()
 	app.Name = filepath.Base(os.Args[0])
 	app.Author = "Podman Machine Contributors"
-	app.Email = "https://github.com/boot2podman/machine"
+	app.Email = "https://github.com/thelonelyghost/p2box"
 
 	app.Commands = commands.Commands
 	app.CommandNotFound = cmdNotFound

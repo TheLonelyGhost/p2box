@@ -4,7 +4,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/boot2podman/machine/commands/mcndirs"
+	"github.com/thelonelyghost/p2box/commands/mcndirs"
 )
 
 func TestStorePathSetCorrectly(t *testing.T) {

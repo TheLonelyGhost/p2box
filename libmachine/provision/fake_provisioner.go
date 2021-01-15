@@ -1,11 +1,11 @@
 package provision
 
 import (
-	"github.com/boot2podman/machine/libmachine/auth"
-	"github.com/boot2podman/machine/libmachine/drivers"
-	"github.com/boot2podman/machine/libmachine/engine"
-	"github.com/boot2podman/machine/libmachine/provision/pkgaction"
-	"github.com/boot2podman/machine/libmachine/provision/serviceaction"
+	"github.com/thelonelyghost/p2box/libmachine/auth"
+	"github.com/thelonelyghost/p2box/libmachine/drivers"
+	"github.com/thelonelyghost/p2box/libmachine/engine"
+	"github.com/thelonelyghost/p2box/libmachine/provision/pkgaction"
+	"github.com/thelonelyghost/p2box/libmachine/provision/serviceaction"
 )
 
 type FakeDetector struct {

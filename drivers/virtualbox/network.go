@@ -10,7 +10,7 @@ import (
 
 	"runtime"
 
-	"github.com/boot2podman/machine/libmachine/log"
+	"github.com/thelonelyghost/p2box/libmachine/log"
 )
 
 const (

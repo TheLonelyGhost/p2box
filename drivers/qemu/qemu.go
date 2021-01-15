@@ -16,12 +16,12 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/boot2podman/machine/libmachine/drivers"
-	"github.com/boot2podman/machine/libmachine/log"
-	"github.com/boot2podman/machine/libmachine/mcnflag"
-	"github.com/boot2podman/machine/libmachine/mcnutils"
-	"github.com/boot2podman/machine/libmachine/ssh"
-	"github.com/boot2podman/machine/libmachine/state"
+	"github.com/thelonelyghost/p2box/libmachine/drivers"
+	"github.com/thelonelyghost/p2box/libmachine/log"
+	"github.com/thelonelyghost/p2box/libmachine/mcnflag"
+	"github.com/thelonelyghost/p2box/libmachine/mcnutils"
+	"github.com/thelonelyghost/p2box/libmachine/ssh"
+	"github.com/thelonelyghost/p2box/libmachine/state"
 )
 
 const (

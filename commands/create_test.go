@@ -4,8 +4,8 @@ import (
 	"testing"
 
 	"flag"
-	"github.com/boot2podman/machine/commands/commandstest"
-	"github.com/boot2podman/machine/libmachine/mcnflag"
+	"github.com/thelonelyghost/p2box/commands/commandstest"
+	"github.com/thelonelyghost/p2box/libmachine/mcnflag"
 	"github.com/stretchr/testify/assert"
 )
 

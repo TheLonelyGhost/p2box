@@ -3,7 +3,7 @@ package generic
 import (
 	"testing"
 
-	"github.com/boot2podman/machine/libmachine/drivers"
+	"github.com/thelonelyghost/p2box/libmachine/drivers"
 	"github.com/stretchr/testify/assert"
 )
 

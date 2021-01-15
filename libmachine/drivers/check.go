@@ -1,6 +1,6 @@
 package drivers
 
-import "github.com/boot2podman/machine/libmachine/mcnflag"
+import "github.com/thelonelyghost/p2box/libmachine/mcnflag"
 
 // CheckDriverOptions implements DriverOptions and is used to validate flag parsing
 type CheckDriverOptions struct {

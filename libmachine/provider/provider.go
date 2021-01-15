@@ -1,6 +1,6 @@
 package provider
 
-import "github.com/boot2podman/machine/libmachine/host"
+import "github.com/thelonelyghost/p2box/libmachine/host"
 
 type Provider interface {
 	// IsValid checks whether or not the Provider can successfully create
